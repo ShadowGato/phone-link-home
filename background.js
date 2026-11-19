@@ -1,5 +1,5 @@
-// Phone Link cannot open the Android Home app on this PC. It falls back to
-// a Bing search whose query is the app name, "home". This worker sends that
+// Phone Link / Windows Notifications cannot open the Google Home app Chrome. It falls back to
+// a Bing search whose query is the app name, "home". This workaround sends that
 // tab to the Google Home site instead.
 //
 // manifest.json has no comments: Chrome rejects a manifest that is not
