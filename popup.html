@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!-- Toolbar popup. It only explains the redirect. The redirect itself is in background.js. -->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Phone Link Home</title>
+  <style>
+    /* Popup width is fixed. Chrome sizes the popup window to this body. */
+    body {
+      margin: 0;
+      width: 280px;
+      font: 14px/1.4 "Segoe UI", sans-serif;
+      color: #1f1f1f;
+    }
+    /* Blue bar matches the toolbar icon. */
+    header {
+      padding: 14px 16px 10px;
+      background: #1a73e8;
+      color: #fff;
+    }
+    h1 {
+      margin: 0;
+      font-size: 15px;
+      font-weight: 600;
+    }
+    main {
+      padding: 14px 16px 16px;
+    }
+    p {
+      margin: 0 0 10px;
+    }
+    /* The query and the destination URL are shown in a monospace face. */
+    code {
+      font-family: Consolas, monospace;
+      font-size: 12px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Phone Link Home</h1>
+  </header>
+  <main>
+    <!-- Shown when the user clicks the toolbar button. No buttons or settings. -->
+    <p>When Phone Link opens a Bing search for <code>home</code>, this extension sends that tab to Google Home.</p>
+    <!-- Same address the service worker assigns to the tab. -->
+    <p><code>https://home.google.com/u/0/</code></p>
+  </main>
+</body>
+</html>
