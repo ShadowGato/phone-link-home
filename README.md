@@ -1,8 +1,8 @@
 # Phone Link Home
 
-Chrome extension that opens Google Home when Microsoft Phone Link opens a Bing search for the word `home`.
+Chrome extension that opens Google Home when Microsoft Phone Link / Notications opens a Bing search for the word `home`.
 
-Phone Link mirrors notifications from the Android Home app. Those notifications open the app on the phone. On Windows, Phone Link cannot launch that app, so it searches Bing for the app name. This extension catches `https://www.bing.com/search?q=home` and sends the tab to `https://home.google.com/u/0/`.
+Link mirrors notifications from the Home app. Those notifications open the app on the phone/desktop. On Windows, Phone / Notifications Link cannot launch that app, so it searches Bing (Thanks MS) for the app name. This extension catches `https://www.bing.com/search?q=home` and sends the tab to `https://home.google.com/u/0/`.
 
 Other Bing searches are unchanged. A search for `home depot` or `google home` stays on Bing. A Windows taskbar search for the single word `home` uses the same Bing address, so that search opens Google Home too.
 
